@@ -42,4 +42,4 @@ void Course::CourseList(){
     for (int i = 0; i < count; i++) {        //iterating a for loop over the amount of course objects in the array, courses
         cout<< i+1 << endl;                  //displaying the item number
     };
-}
+} //change

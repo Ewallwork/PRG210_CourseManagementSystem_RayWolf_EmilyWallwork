@@ -18,4 +18,4 @@ public:
     void Show() const;
     void AddCourse(const char* Name, int Code, char* Schedule, int Price);
     void CourseList();
-};
+}; //change
