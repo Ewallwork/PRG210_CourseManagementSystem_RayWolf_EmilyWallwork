@@ -15,7 +15,8 @@ public:
     Course(const char* Name, int Code);
     Course(const char* Name, int Code, char* Schedule, int Price);
 
+    int GetCoursePrice() const;
     void Show() const;
     void AddCourse(const char* Name, int Code, char* Schedule, int Price);
     void CourseList();
-}; //change
+}; 
